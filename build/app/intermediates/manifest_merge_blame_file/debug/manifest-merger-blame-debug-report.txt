@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.maps_flutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:3:1-62
+14-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:3:18-60
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:4:1-77
+15-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:4:18-74
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:5:1-75
+16-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:5:18-72
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:6:1-81
+17-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:6:18-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:8:4-49:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:10:9-43
+28        android:label="maps_flutter" >
+28-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:9:9-37
+29        <meta-data
+29-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:12:5-13:76
+30            android:name="com.google.android.geo.API_KEY"
+30-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:12:16-61
+31            android:value="AIzaSyCvo9UcZ9VGlJqL_DWDV0o3dIPUvEDG1dQ" />
+31-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:13:19-74
+32
+33        <activity
+33-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:15:9-43:20
+34            android:name="com.example.maps_flutter.MainActivity"
+34-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:16:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:19:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:20:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:17:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:18:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:21:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:26:13-29:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:27:15-70
+49                android:resource="@style/NormalTheme" />
+49-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:28:15-52
+50            <!--
+51                 Displays an Android View that continues showing the launch screen
+52                 Drawable until Flutter paints its first frame, then this splash
+53                 screen fades out. A splash screen is useful to avoid any visual
+54                 gap between the end of Android's launch screen and the painting of
+55                 Flutter's first frame.
+56            -->
+57            <meta-data
+57-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:35:13-38:17
+58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+58-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:36:15-79
+59                android:resource="@drawable/launch_background" />
+59-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:37:15-61
+60
+61            <intent-filter>
+61-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:39:13-42:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:40:17-68
+62-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:40:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:41:17-76
+64-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:41:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:46:9-48:33
+72            android:name="flutterEmbedding"
+72-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:47:13-44
+73            android:value="2" />
+73-->C:\Users\ls140\Desktop\GeorgiaTech\mapsflutter\maps_flutter\android\app\src\main\AndroidManifest.xml:48:13-30
+74        <!-- Needs to be explicitly declared on P+ -->
+75        <uses-library
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+76            android:name="org.apache.http.legacy"
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+77            android:required="false" />
+77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\c5de8972dacd649c27c247c9e16de3ac\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+78
+79        <activity
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ls140\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+87    </application>
+88
+89</manifest>
